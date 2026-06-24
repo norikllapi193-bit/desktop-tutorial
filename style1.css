@@ -1,0 +1,35 @@
+#astonmartin img{
+    transform: scale(1);
+    transition: .5s ease-in-out;
+}
+
+#astonmartin:hover img{
+    transform: scale(1.5);
+}
+
+#jaguar img{
+    margin: 0;
+    transition: .5s ease-in-out;
+}
+
+#jaguar:hover img{
+    margin-left: 30px;
+}
+
+#mclaren img{
+    filter: blur(5px);
+    transition: .5s ease-in-out;
+}
+
+#mclaren:hover img{
+    filter: blur(0);
+}
+
+#landrover img{
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+
+#landrover:hover img{
+    filter: grayscale(0);
+}
