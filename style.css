@@ -1,27 +1,21 @@
-.loader img{
-    width: 0px;
-    height: 0px;
-    border-radius: 50%;
-    margin-right: 8px;
-    animation: bounce 8s infinite alternate;
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.loader img:nth-child(2){
-    animation-delay: 2s;
+.card{
+    width: 20%;
+    height: auto;
+    border: 10px solid blue;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aqua;
 }
 
-.loader img:nth-child(3){
-    animation-delay: 4s;
-}
-
-.loader img:nth-child(4){
-    animation-delay: 6s;
-}
-
-@keyframes bounce{
-    to{
-        width: 150px;
-        height: 150px;
-        transform: translate3d(0,-50px,0)
-    }
+.card img{
+    width: 180px;
+    height: 250px;
 }
